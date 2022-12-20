@@ -1,0 +1,73 @@
+.screen{
+    padding-right: 2px;
+    min-height: 30px;
+    color: black;
+    text-align: end;
+    border-bottom: 2px solid black;
+}
+
+.digits {
+    max-width: 200px;
+    border-right: 2px solid black;
+}
+
+.digit{
+    background-color: rgb(160, 160, 160);
+}
+
+.calc-container{
+    max-width: 350px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 10px;
+    font-family: Arial;
+    font-size: 1.5rem;
+    margin-top: 30vh;
+    margin-left: 35vw;
+}
+
+.key{
+    margin-top: 2px;
+    margin-left: 2px ;
+    margin-bottom: 2px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.key:active{
+    filter: brightness(90%);
+}
+
+.operation{
+    background-color: rgb(255, 184, 52);
+    color: white;
+    border: 1px solid black;
+}
+
+.bracket{
+    background-color: rgb(255, 184, 52);
+    color: white;
+    border: 1px solid black;
+}
+
+.result{
+    background-color: rgb(255, 184, 52);
+    color: white;
+    border: 1px solid black;
+}
+
+.clear{
+    background-color: rgb(255, 184, 52);
+    color: white;
+    border: 1px solid black;
+}
+
+.operation{
+    max-width: 130px;
+}
+
+.buttons {
+    display: flex;
+}
+

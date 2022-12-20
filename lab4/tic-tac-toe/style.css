@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body, main {
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game {
+    height: 500px;
+    width: 500px;
+    text-align: center;
+}
+
+#board {
+    height: 300px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.cell {
+    float: left;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 70px;
+}
+
+.msg {
+    padding: 10px;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+}
+
+.success {
+    background-color: lightgreen;
+    border-color: darkgreen;
+    color: darkgreen;
+}
+
+.danger {
+    background-color: lightcoral;
+    border-color: darkred;
+    color: darkred;
+}
